@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 760px;
+    margin: 35px auto;
+}
+
+h2 {
+    color: #008c95;
+    font-size: 22px;
+    margin: 0 0 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th {
+    border: 1px solid #333;
+    padding: 6px;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #333;
+    padding: 6px;
+    height: 28px;
+}
+
+/* Độ rộng các cột */
+th.quantity {
+    width: 16%;
+}
+
+th.description {
+    width: 44%;
+}
+
+th.price {
+    width: 9%;
+}
+
+th.amount {
+    width: 10%;
+}
+
+th.action {
+    width: 21%;
+}
+
+/* Khu vực Quantity */
+.quantity-area {
+    white-space: nowrap;
+}
+
+.quantity-box {
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    background-color: white;
+    margin-right: 5px;
+}
+
+/* Nút */
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 3px 8px;
+    cursor: pointer;
+    border: 1px solid #999;
+    background: linear-gradient(#ffffff, #dddddd);
+    color: #111;
+}
+
+.button:hover {
+    background: linear-gradient(#eeeeee, #cccccc);
+}
+
+/* Tên sản phẩm: chữ đen bình thường */
+.description {
+    color: black;
+    font-weight: normal;
+}
+
+/* Price và Amount căn phải */
+.price,
+.amount {
+    text-align: right;
+}
+
+/* Nút Remove Item */
+.remove {
+    text-align: center;
+}
+
+/* Dòng hướng dẫn */
+.note {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+/* Hai nút phía dưới */
+.bottom-buttons {
+    margin-top: 12px;
+}
+
+.bottom-buttons form {
+    margin-bottom: 6px;
+}
+
+/* Khi giỏ hàng rỗng */
+.empty {
+    text-align: center;
+    padding: 15px;
+}

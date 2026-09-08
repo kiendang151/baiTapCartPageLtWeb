@@ -1,0 +1,5 @@
+cart\Cart.class
+com\mycompany\cartpage\JakartaRestConfiguration.class
+servlet\CartServlet.class
+model\Product.class
+com\mycompany\cartpage\resources\JakartaEE8Resource.class
